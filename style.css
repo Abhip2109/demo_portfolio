@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(233, 251, 251);
+}
+header{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.logo{
+    font-size: x-large;
+    margin-left: 50px;
+    font-weight: bold;
+}
+input{
+    font-size: x-large;
+    background-color: white ;
+    border-radius: 10px;
+    margin-right: 50px;
+    padding-left: 20px;
+    width: 200px;
+}
+button{
+    font-size: x-large;
+    padding:3px;
+    margin-right:100px;    
+    margin-left:10px;   
+    border-radius: 10px;
+    font-weight: 50;
+    border-color: rgb(48, 140, 140);
+    background-color: rgb(48, 140, 140);
+    color:white;
+}
+li{
+    width: 120px
+}
+header ul{
+    list-style: none;
+    display: flex;
+    font-size: x-large;    
+}
+
+section{
+    margin-top:150px;
+    margin-left: 100px;
+    font-size: x-large;
+}
+p span{
+    color: rgb(10, 10, 156);
+}
+h1 span{
+    color: rgb(0, 85, 85);
+    background-color: rgb(202, 202, 202);
+}
+section.img{
+    height: 100px;
+    width: 100px;
+}
+div.mid{
+    display: flex;
+    margin-left: 30px;
+    
+}
+section.img{
+    margin:100px;
+    margin-left:330px;
+}
+section.chat{
+    display: flex;
+    margin: 30px;
+    margin-right: 160px;
+    justify-content: end;
+}
+footer{
+    margin-top: 100px;
+    display: flex;
+    font-size: x-large;
+    justify-content:space-around;
+}
+a{
+ padding-left: 10px;   
+ padding-right: 10px;
+ margin-right: 30px;
+ font-display:none;
+ text-decoration: none;
+
+}
